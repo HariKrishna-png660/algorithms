@@ -1,0 +1,1 @@
+{"name":"Local: closing","url":"c:\\algoforge\\Graph\\closing.java","tests":[{"id":1756484474454,"input":"4 3\n1 2\n2 3\n3 4\n3\n4\n1\n2","output":"YES\nNO\nYES\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\algoforge\\Graph\\closing.java","group":"local","local":true}
