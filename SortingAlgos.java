@@ -47,8 +47,8 @@ public class SortingAlgos {
         arr[i]=arr[j];
         arr[j]=temp;
     }
-    public static int partition(int arr[],int si,int ei) {
-        int pivot=arr[ei];
+    public static int partition(int arr[],int si,int ei) { // TIME COMPLEXITY IS O(N)
+        int pivot=arr[ei];                                 
         int i=si;int j=si;
         while(j<=ei-1) {
             if(arr[j]<=pivot) {
@@ -60,8 +60,8 @@ public class SortingAlgos {
         swap(i,ei,arr);
         return i;
     }
-    public static void quickSort(int arr[],int si,int ei) {
-        if(si>ei) {
+    public static void quickSort(int arr[],int si,int ei) { // AVERAGE CASE TIME-> O(N LOG N) 
+        if(si>ei) {                                         // WORST CASE TIME -> O(N^2) [WHEN THE ARRAY IS SORTED IN ASCENDING ORDER]
             return;
         }
         int pivotIndex=partition(arr,si,ei);
